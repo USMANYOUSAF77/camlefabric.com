@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #12e2c6;
+    color: #4a2e14;
+  }
+  header {
+    background-color: #b7a8f0;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  .logo img {
+    height: 60px;
+    margin-right: 15px;
+  }
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #6b3f1d;
+    font-weight: 700;
+  }
+  nav a:hover {
+    color: #a96c37;
+  }
+  .hero {
+    padding: 80px 20px;
+    text-align: center;
+    background-image: url('https://www.transparenttextures.com/patterns/linen.png');
+  }
+  .section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #12e2c6;
+    color: #f053b6;
+    border: none;
+    cursor: pointer;
+  }
+  form button:hover {
+    background-color: #12e2c6;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #12e2c6;
+    font-size: 14px;
+  }
+  
